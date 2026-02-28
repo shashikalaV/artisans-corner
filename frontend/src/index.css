@@ -1,0 +1,28 @@
+/* Reset some default spacing */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f6ff; /* soft lavender background */
+}
+
+/* Custom Purple Theme */
+:root {
+  --primary-purple: #6f42c1;
+  --light-purple: #e9ddff;
+  --dark-purple: #4b2e83;
+}
+
+.btn-purple {
+  background-color: var(--primary-purple);
+  color: white;
+  border: none;
+}
+
+.btn-purple:hover {
+  background-color: var(--dark-purple);
+  color: white;
+}
+
+.text-purple {
+  color: var(--primary-purple);
+}
